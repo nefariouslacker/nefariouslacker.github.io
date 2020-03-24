@@ -250,6 +250,9 @@
     .buttons_area .more_btn{
         margin-bottom: 20px;
     }
+    .feature_item .more_btn {
+        opacity: 1;
+    }
 }
 @media (max-width: 575px){
     .team_img_inner .team_img_item img {
@@ -308,6 +311,9 @@
     .elements_title {
         text-align: center;
     }
+    .feature_item .more_btn {
+        opacity: 1;
+    }
 }
 @media (max-width: 480px){
     .l_title h2 {
@@ -353,5 +359,8 @@
     }
     .contact_map_area .mapBox1 {
         min-height: 575px;
+    }
+    .feature_item .more_btn {
+        opacity: 1;
     }
 }
