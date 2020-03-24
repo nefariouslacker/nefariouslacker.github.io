@@ -206,7 +206,7 @@
 }
 @media (max-width: 767px){
     .shap_mobile {
-        display: none;
+        display: contents;
     }
     .talk_text a {
         font-size: 38px;
