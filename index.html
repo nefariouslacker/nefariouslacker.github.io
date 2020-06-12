@@ -13,12 +13,10 @@
         <meta name="p:domain_verify" content="e2cc2bc733be8aa73495b39d4b307156"/>
     <!-- recaptcha -->
         <script type="text/javascript">
-      var onloadCallback = function() {
-        grecaptcha.render('html_element', {
-          'sitekey' : 'your_site_key'
-        });
-      };
-    </script>
+  var onloadCallback = function() {
+    alert("grecaptcha is ready!");
+  };
+</script>
         <!-- Global site tag (gtag.js) - Google Ads: 1064099108 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1064099108"></script>
 <script>
@@ -529,8 +527,9 @@
                                 <button type="submit" value="submit" class="btn submit_btn form-control">Send</button>
                             </div>
                         </form>
-                         <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
-                        </script>
+                         <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+    async defer>
+</script>
                     </div>
                     <div class="col-lg-6">
                         <div class="touch_details">
